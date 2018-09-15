@@ -29,7 +29,7 @@ public class ExcecuteScript {
 			System.out.println(line);
 		}
 		stderr.close();
-		System.out.println("Done");
+		System.out.println("************************************");
 	}
 
 }
