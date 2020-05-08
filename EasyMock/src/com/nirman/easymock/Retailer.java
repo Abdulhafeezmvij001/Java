@@ -3,7 +3,7 @@ package com.nirman.easymock;
 public class Retailer {
 
 	private int taxes_in_percent = 10;
-
+	// Added first comment in Retailer.java
 	public int getPriceForProduct(String productId) throws Exception {
 		int price;
 		if (productId.equals("101")) {
